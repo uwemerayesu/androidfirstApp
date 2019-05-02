@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="#81d4fa"
+    tools:context=".Picture">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lake Kivu Kibuye VIEW"
+        android:textAlignment="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kby"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+
+
+        />
+
+
+</LinearLayout>
